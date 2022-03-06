@@ -1,11 +1,11 @@
 {
-  "name": "@huluvu424242/liona-feeds",
-  "version": "2.3.3",
-  "description": "Modul to realize an REST endpoint to receive news feed data",
+  "name": "@huluvu424242/liona-core",
+  "version": "1.0.0",
+  "description": "Core Modul of Liona Series",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "index.d.ts",
-  "unpkg": "dist/liona-feeds/liona-feeds.js",
+  "unpkg": "dist/liona-feeds/liona-core.js",
   "files": [
     "dist/"
   ],

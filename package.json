@@ -1,0 +1,51 @@
+{
+  "name": "@huluvu424242/liona-feeds",
+  "version": "2.3.3",
+  "description": "Modul to realize an REST endpoint to receive news feed data",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "index.d.ts",
+  "unpkg": "dist/liona-feeds/liona-feeds.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json && npx tsc -p tsconfig-cjs.json",
+    "start": "node demo/server.js",
+    "prepare": "npm run build",
+    "deliver": "npm publish --access=public",
+    "pruefeVersionen": "npm outdated",
+    "check-credits": "npx license-checker --failOn 'AGPL' --production >credits.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huluvu424242/liona-feeds.git"
+  },
+  "keywords": [
+    "liona-news",
+    "news-feed",
+    "rest-endpoint"
+  ],
+  "author": "Huluvu424242 (Thomas Schubert)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huluvu424242/liona-feeds/issues"
+  },
+  "homepage": "https://github.com/Huluvu424242/liona-feeds#readme",
+  "engines": {
+    "node": "16.13.1"
+  },
+  "dependencies": {
+    "rxjs": "7.4.0",
+    "rxjs-operators": "1.1.3",
+    "feedme": "2.0.2",
+    "axios": "0.24.0",
+    "object-hash": "2.2.0"
+  },
+  "devDependencies": {
+    "@types/feedme": "1.0.0",
+    "@types/object-hash": "2.2.1",
+    "express": "4.17.2",
+    "typescript": "4.5.4"
+  }
+}

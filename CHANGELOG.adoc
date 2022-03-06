@@ -1,0 +1,97 @@
+= Changelog
+Alle wichtigen Änderungen am Projekt sind in dieser Datei dokumentiert.
+
+Das Format basiert auf http://keepachangelog.com/de/[Keep a Changelog].
+Die Versionierung erfolgt nach http://semver.org/lang/de/[Semantic Versioning].
+
+// == [3.1.1] fertiggestellt 2018-05-11
+== [X.X.X] undelivered
+== [2.3.2, 2.3.2] fertiggestellt 2021-12-26
+
+=== Added
+
+* secure issues fixed by versions upgrade of dependencies
+
+=== Changed
+
+* node version changed to 16.13.1
+
+=== Removed
+
+*
+== [2.3.1] fertiggestellt 2021-04-25
+
+=== Added
+
+*
+
+=== Changed
+
+* https://github.com/Huluvu424242/liona-feeds/issues/17[issue 17] unpkg path fixed
+* https://github.com/Huluvu424242/liona-feeds/issues/15[issue 15] compute score fixed
+
+=== Removed
+
+*
+
+== [2.3.0] fertiggestellt 2021-03-12
+
+=== Added
+
+* https://github.com/Huluvu424242/liona-feeds/issues/12[issue 12] add statistic query
+* https://github.com/Huluvu424242/liona-feeds/issues/10[issue 10] add statistic module
+
+=== Changed
+
+*
+
+=== Removed
+
+*
+
+== [2.2.0] fertiggestellt 2021-03-09
+
+=== Added
+
+* https://github.com/Huluvu424242/liona-feeds/issues/7[issue 7] cleanup realisiert
+
+** Alle 30 Minuten läuft der Cleanup Job und prüft
+** ob ein Feed länger als 60 Minuten nicht mehr angefragt wurde
+
+
+=== Changed
+
+* Alle 10 Minuten werden die Feeds als Default abgefragt, wer schneller wünscht muss einer Periode angeben
+
+=== Removed
+
+*
+
+== [2.1.0] fertiggestellt 2021-03-08
+
+=== Added
+
+* https://github.com/Huluvu424242/liona-feeds/issues/3[issue 3] support of uuid
+* https://github.com/Huluvu424242/liona-feeds/issues/4[issue 4] addCORSHeader function added
+
+=== Changed
+
+* signature of getFeedData api -> major change
+
+=== Removed
+
+*
+
+== [1.0.0] fertiggestellt 2021-03-06
+
+=== Added
+
+* project setup
+
+=== Changed
+
+* n/a
+
+=== Removed
+
+* n/a
